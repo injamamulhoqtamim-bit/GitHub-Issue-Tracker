@@ -631,3 +631,12 @@ gap:8px;
 margin:18px 0;
 width:100%;
 }
+
+/* close modal.................. */
+.status-closed{
+background:#8b5cf6;
+color:white;
+padding:4px 12px;
+border-radius:20px;
+font-size:12px;
+}
