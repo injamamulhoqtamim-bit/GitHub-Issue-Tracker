@@ -9,11 +9,13 @@
 =  The spread operator (...) is used to expand elements of an array or object. It helps copy, merge, or pass multiple values easily.
 
 
+
     - 3️⃣ What is the difference between map(), filter(), and forEach()?
 =  The difference between map(), filter(), and forEach():
-1. map() creates a new array by modifying each element.
-2. filter() creates a new array with elements that match a condition.
-3. forEach() simply loops through an array and performs an action, but it does not return a new array.
+ map() creates a new array by modifying each element.
+ filter() creates a new array with elements that match a condition.
+ forEach() simply loops through an array and performs an action, but it does not return a new array.
+
 
 
     - 4️⃣ What is an arrow function?
