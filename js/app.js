@@ -6,7 +6,7 @@ const API_SEARCH = "https://phi-lab-server.vercel.app/api/v1/lab/issues/search?q
 let allIssues = [];
 
 
-// LOGIN  function to check the dashboard access
+// LOGIN  function to check the dashboard access..........
 function login(){
 
 const user = document.getElementById("username").value;
@@ -20,3 +20,30 @@ alert("Invalid Credentials");
 }
 
 }
+
+
+
+
+// LOAD ALL ISSUES ..............
+async function loadIssues(){
+
+showLoader(true);
+
+try{
+
+const res = await fetch(API_ALL);
+const data = await res.json();
+
+allIssues = data.data;
+
+displayIssues(allIssues);
+
+}
+catch(err){
+console.log(err);
+}
+
+showLoader(false);
+
+}
+
